@@ -1,0 +1,9 @@
+</script>
+      var regexp1 = /^\d\d\d-\d\d\d\d-\d\d\d$/;
+			var str1 = "444-5555-111"
+			console.log(regexp1.test(str1));
+
+			var regexp2 = /^\w\w\w-\w\w\w\w-\w\w\w$/;
+			var str2 = "abc-__ab-123";
+			console.log(regexp2.test(str2));
+</script>
